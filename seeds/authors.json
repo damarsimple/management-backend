@@ -1,0 +1,10 @@
+[
+{"type":"header","version":"5.2.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"superadmin"},
+{"type":"table","name":"authors","database":"superadmin","data":
+[
+{"id":"1","name":"Beni Sulis","address":"Alamat Beni Sulis","deleted_at":null,"created_at":"2021-09-10 05:35:24","updated_at":"2021-09-10 05:35:24"},
+{"id":"2","name":"Udin Jaya W","address":"","deleted_at":null,"created_at":"2021-09-10 05:35:24","updated_at":"2021-09-10 05:35:24"}
+]
+}
+]

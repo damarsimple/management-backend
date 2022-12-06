@@ -1,0 +1,482 @@
+[{
+        "type": "header",
+        "version": "5.2.0",
+        "comment": "Export to JSON plugin for PHPMyAdmin"
+    },
+    { "type": "database", "name": "superadmin" },
+    {
+        "type": "table",
+        "name": "sub_categories",
+        "database": "superadmin",
+        "data": [{
+                "id": "1",
+                "category_id": "1",
+                "name": "Islam",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "2",
+                "category_id": "1",
+                "name": "Kristen",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "3",
+                "category_id": "1",
+                "name": "Katholik",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "4",
+                "category_id": "1",
+                "name": "Budha",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "5",
+                "category_id": "1",
+                "name": "Hindu",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "6",
+                "category_id": "1",
+                "name": "Konghuchu",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "7",
+                "category_id": "1",
+                "name": "Lainnya",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "8",
+                "category_id": "2",
+                "name": "Bahasa Indonesia",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "9",
+                "category_id": "2",
+                "name": "Bahasa Inggris",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "10",
+                "category_id": "2",
+                "name": "Lainnya",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "11",
+                "category_id": "3",
+                "name": "SD Kelas 1",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "12",
+                "category_id": "3",
+                "name": "SD Kelas 2",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "13",
+                "category_id": "3",
+                "name": "SD Kelas 3",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "14",
+                "category_id": "3",
+                "name": "SD Kelas 4",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "15",
+                "category_id": "3",
+                "name": "SD Kelas 5",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "16",
+                "category_id": "3",
+                "name": "SD Kelas 6",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "17",
+                "category_id": "3",
+                "name": "SMP Kelas 7",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "18",
+                "category_id": "3",
+                "name": "SMP Kelas 8",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "19",
+                "category_id": "3",
+                "name": "SMP Kelas 9",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "20",
+                "category_id": "3",
+                "name": "SMA/SMK Kelas 10",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "21",
+                "category_id": "3",
+                "name": "SMA/SMK Kelas 11",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "22",
+                "category_id": "3",
+                "name": "SMA/SMK Kelas 12",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "23",
+                "category_id": "4",
+                "name": "Filsafat",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "24",
+                "category_id": "4",
+                "name": "Psikologi",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "25",
+                "category_id": "5",
+                "name": "Literatur",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "26",
+                "category_id": "5",
+                "name": "Sastra (Puisi, Prosa, & Pantun)",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "27",
+                "category_id": "5",
+                "name": "Retorika",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "28",
+                "category_id": "5",
+                "name": "Kritik",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "29",
+                "category_id": "6",
+                "name": "Romance",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "30",
+                "category_id": "6",
+                "name": "Misteri/Thriller/Horror",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "31",
+                "category_id": "6",
+                "name": "Komedi/Humor",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "32",
+                "category_id": "6",
+                "name": "Inspiratif",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "33",
+                "category_id": "6",
+                "name": "Sejarah",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "34",
+                "category_id": "6",
+                "name": "Islami",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "35",
+                "category_id": "6",
+                "name": "Sci-Fi/Fiksi Sains",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "36",
+                "category_id": "6",
+                "name": "Petualang",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "37",
+                "category_id": "7",
+                "name": "Sains",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "38",
+                "category_id": "7",
+                "name": "Matematika",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "39",
+                "category_id": "7",
+                "name": "Astronomi",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "40",
+                "category_id": "7",
+                "name": "Fisika",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "41",
+                "category_id": "7",
+                "name": "Kimia",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "42",
+                "category_id": "7",
+                "name": "Biologi",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "43",
+                "category_id": "7",
+                "name": "Geologi",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "44",
+                "category_id": "7",
+                "name": "Fosil dan Kehidupan Prasejarah",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "45",
+                "category_id": "8",
+                "name": "Sejarah",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "46",
+                "category_id": "8",
+                "name": "Geografi dan Perjalanan",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "47",
+                "category_id": "8",
+                "name": "Biografi dan Asal-Usul",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "48",
+                "category_id": "9",
+                "name": "Seni Musik",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "49",
+                "category_id": "9",
+                "name": "Seni Tari",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "50",
+                "category_id": "9",
+                "name": "Seni Drama/Teater",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "51",
+                "category_id": "9",
+                "name": "Seni Rupa",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "52",
+                "category_id": "10",
+                "name": "Ilmu Sosial, Sosiologi, dan Antropologi",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "53",
+                "category_id": "10",
+                "name": "Statistik",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "54",
+                "category_id": "10",
+                "name": "Ilmu Politik",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "55",
+                "category_id": "10",
+                "name": "Ekonomi",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "56",
+                "category_id": "10",
+                "name": "Hukum",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "57",
+                "category_id": "10",
+                "name": "Administrasi Publik dan Ilmu Kemiliteran",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "58",
+                "category_id": "10",
+                "name": "Pendidikan",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "59",
+                "category_id": "11",
+                "name": "Teknologi",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "60",
+                "category_id": "12",
+                "name": "Publikasi Umum, Informasi Umum, dan Komputer",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "61",
+                "category_id": "12",
+                "name": "Bibiliografi",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "62",
+                "category_id": "12",
+                "name": "Perpustakaan dan Informasi",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "63",
+                "category_id": "12",
+                "name": "Ensiklopedia dan Buku yang memuat fakta-fakta",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "64",
+                "category_id": "12",
+                "name": "Majalah dan Jurnal",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "65",
+                "category_id": "12",
+                "name": "Asosiasi, Organisasi, dan Museum",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "66",
+                "category_id": "12",
+                "name": "Media massa, Jurnalisme, dan Publikasi",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            },
+            {
+                "id": "67",
+                "category_id": "3",
+                "name": "PAUD/TK",
+                "created_at": "2022-02-14 23:06:18",
+                "updated_at": "2022-02-14 23:06:18"
+            }
+        ]
+    }
+]

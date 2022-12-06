@@ -1,0 +1,132 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+generator pothos {
+  provider = "prisma-pothos-types"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserType {
+  ADMIN
+  STUDIO
+  PERFORMER
+  USER
+}
+
+model User {
+  id              Int              @id @default(autoincrement())
+  email           String           @unique
+  password        String
+  name            String?
+  avatar          String?
+  type            UserType         @default(USER)
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+  bookings        Booking[]
+  employeeStudios EmployeeStudio[]
+  reviewer        Review[]         @relation("Reviewer")
+  reviewed        Review[]         @relation("Reviewed")
+  participants    Participant[]
+}
+
+model Studio {
+  id        Int              @id @default(autoincrement())
+  name      String
+  avatar    String?
+  createdAt DateTime         @default(now())
+  updatedAt DateTime         @updatedAt
+  bookings  Booking[]
+  employees EmployeeStudio[]
+  events    Event[]
+}
+
+enum BookingStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  CANCELLED
+  COMPLETED
+}
+
+model Booking {
+  id          Int    @id @default(autoincrement())
+  studio      Studio @relation(fields: [studioId], references: [id], onDelete: Cascade)
+  studioId    Int
+  performer   User   @relation(fields: [performerId], references: [id], onDelete: Cascade)
+  performerId Int
+
+  startAt DateTime
+  endAt   DateTime
+
+  description String?
+
+  price  Float
+  status BookingStatus
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+enum EmployeeStudioRole {
+  OWNER
+  MANAGER
+  EMPLOYEE
+  CONTRACTOR
+}
+
+model EmployeeStudio {
+  id         Int      @id @default(autoincrement())
+  studio     Studio   @relation(fields: [studioId], references: [id], onDelete: Cascade)
+  studioId   Int
+  employee   User     @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+  employeeId Int
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  role EmployeeStudioRole
+}
+
+model Review {
+  id Int @id @default(autoincrement())
+
+  reviewer   User     @relation(name: "Reviewer", fields: [reviewerId], references: [id], onDelete: Cascade)
+  reviewerId Int
+  reviewed   User     @relation(name: "Reviewed", fields: [reviewedId], references: [id], onDelete: Cascade)
+  reviewedId Int
+  rating     Int
+  comment    String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model Event {
+  id          Int      @id @default(autoincrement())
+  name        String
+  description String?
+  startAt     DateTime
+  endAt       DateTime
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  studio       Studio        @relation(fields: [studioId], references: [id], onDelete: Cascade)
+  studioId     Int
+  participants Participant[]
+}
+
+model Participant {
+  id        Int      @id @default(autoincrement())
+  event     Event    @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  eventId   Int
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId    Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
