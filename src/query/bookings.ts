@@ -2,7 +2,7 @@ import builder from '@src/builder'
 import prisma from '@src/db'
 
 builder.queryFields((t) => ({
-    categories: t.prismaField({
+    bookings: t.prismaField({
         type: ['Booking'],
         args: {
             take: t.arg.int({
@@ -20,7 +20,7 @@ builder.queryFields((t) => ({
             })
         },
     }),
-    category: t.prismaField({
+    bookin: t.prismaField({
         type: 'Booking',
         args: {
             id: t.arg.int({ required: true }),

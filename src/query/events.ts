@@ -2,7 +2,7 @@ import builder from '@src/builder'
 import prisma from '@src/db'
 
 builder.queryFields((t) => ({
-    categories: t.prismaField({
+    events: t.prismaField({
         type: ['Event'],
         args: {
             take: t.arg.int({
@@ -31,7 +31,7 @@ builder.queryFields((t) => ({
             })
         },
     }),
-    category: t.prismaField({
+    event: t.prismaField({
         type: 'Event',
         args: {
             id: t.arg.int({ required: true }),
